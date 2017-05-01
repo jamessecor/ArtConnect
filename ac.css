@@ -1,0 +1,29 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, footer, header {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body {
+	background-color:#fed;
+	color:#644;
+}
+
+h1 {
+	color: #44c;
+	font-size:1.5em;
+	text-align:center;
+	padding:.2em;
+}
+
+.codeExample {
+	border: .1em solid #55f;
+	background-color: #eee;
+	padding:.05em 1em .05em 1em;
+}
+
+.codeComment {
+	color:#3a3;
+}
