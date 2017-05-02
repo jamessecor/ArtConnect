@@ -27,6 +27,3 @@ include "acHeader.php";
 		</div>
 	</div>
 </div>
-<?php
-include "acFooter.php";
-?>

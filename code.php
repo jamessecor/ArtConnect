@@ -17,18 +17,22 @@ include "acHeader.php";
 				Each page within ArtConnect Vermont includes the header/footer files. <a href="header.php">More info on header/footer.</a>
 				</p>
 				<p>
-				Typically, pages will have blocks of PHP code interspersed with blocks of HTML and JavaScript.
+				Typically, pages will be comprised of interspersed blocks of PHP, HTML, and JavaScript code.
 				</p>
-				<div class="codeExample">
-					< ?php <br>
-					// PHP code here<br>
-					? ><br>
-					HTML and JavaScript here<br>
-					. . .
+				<div>
+					<pre class="codeExample">
+				
+&lt;?php
+	<span class="codeComment">// PHP code here</span>
+?&gt;
+<span class="codeComment">&lt;!-- HTML here --></span>
+&lt;script&gt;
+	<span class="codeComment">// JavaScript here</span>
+&lt;/script&gt;
+<span class="codeComment">&lt;!-- More HTML here --></span>
+etc.
+					</pre>
 				</div>
 		</div>
 	</div>
 </div>
-<?php
-include "acFooter.php";
-?>

@@ -34,8 +34,8 @@ include "acHeader.php";
 				<p>
 				Included in the state’s population is a large subgroup of artists and makers. 
 				ArtConnect Vermont deploys software that connects artists with other artists, with potential buyers, 
-				with calendar listings throughout the various regions of the state for calls to artists, current and upcoming exhibitions, and show receptions. 
-				There are also threads that can help organize ArtConnect communication. 
+				with calendar listings throughout the various regions of the state for calls to artists, current and upcoming exhibitions, 
+				and show receptions. There are also threads that can help organize ArtConnect communication. 
 				Threads are artist-made, titled discussion forums. 
 				Potential threads include a thread to share information about available studio space called Studio Space or 
 				one to critique each other’s work called Critiques. Artists can also initiate individual or group conversations. 
@@ -46,15 +46,15 @@ include "acHeader.php";
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
-			<h1>Pages System Design</h1>
-			<img src="lowLevelDesignDiagram.jpg" alt="Image Temporarily Unavailable">
+		<div class="col-md-8 col-md-offset-2">
+			<h1>Page Design</h1>
+			<img width="100%" src="pagesDesign.png" alt="Image Temporarily Unavailable">
+			<p>
+			The page design diagram indicates the dependency hierarchy within the page structure of ArtConnect Vermont.
+			Dependency flows upward, such that elements below depend on elements above them.
+			In order to access any user account, a user must first log in.
+			</p>
 		</div>
 	</div>
 </div>
 
-
-
-<?php
-include "acFooter.php";
-?>

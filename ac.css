@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-	color: #44c;
+	color: #58c;
 	font-size:1.5em;
 	text-align:center;
 	padding:.2em;
@@ -20,8 +20,11 @@ h1 {
 
 .codeExample {
 	border: .1em solid #55f;
+	border-radius:.5em;
 	background-color: #eee;
 	padding:.05em 1em .05em 1em;
+	font-family:"Courier New", Courier, monospace;
+	font-size:1em;
 }
 
 .codeComment {

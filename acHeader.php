@@ -15,6 +15,7 @@
 			  <a class="navbar-brand" href="./index.php">ArtConnect Vermont</a>
 			</div>
 			<ul class="nav navbar-nav">
+				<li><a href="index.php"><strong>Low-level Design</strong></a></li>
 				<li>
 					<a class='dropdown-toggle' data-toggle="dropdown"><strong>Pages
 					<span class="caret"></span></strong></a>
@@ -29,6 +30,9 @@
 				</li>
 				<li><a href="systemdesign.php"><strong>System Design</strong></a></li>
 				<li><a  href="./code.php"><strong>Code</strong></a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="navbar-text">&copy; 2017 James Secor</li>
 			</ul>
 		</div>
 	</nav>

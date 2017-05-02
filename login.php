@@ -11,23 +11,18 @@ include "acHeader.php";
 			set and is used on all pages to check if a user is logged in. If the check fails, they are redirected to the login page.			
 			</p>
 			<h1>Example</h1>
-			<div class="codeExample">
-				<div class="codeComment">
-					// Boolean function which returns true if user is logged in<br>
-				</div>
-				isLoggedIn() {<br>
-				<div class="codeComment">
-					// Show contents of page<br>
-				</div>
-				} else {<br>
-				<div class="codeComment">
-					// Send user to login page<br>
-				</div>
-				}
+			<div>
+			<pre class="codeExample">
+			
+<span class="codeComment">// Boolean function which returns true if user is logged in</span>
+isLoggedIn() {
+	<span class="codeComment">// Show contents of page</span>
+} else {
+	<span class="codeComment">// Send user to login page</span>
+	print "&lt;a href='login.php'&gt;You must be logged in to proceed.&lt;/a&gt;";
+}
+			</pre>
 			</div>
 		</div>
 	</div>
 </div>
-<?php
-include "acFooter.php";
-?>
