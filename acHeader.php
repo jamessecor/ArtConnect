@@ -15,6 +15,7 @@
 			  <a class="navbar-brand" href="./index.php">ArtConnect Vermont</a>
 			</div>
 			<ul class="nav navbar-nav">
+				<li><a href="systemdesign.php"><strong>System Design</strong></a></li>
 				<li><a href="lowleveldesign.php"><strong>Low-level Design</strong></a></li>
 				<li>
 					<a class='dropdown-toggle' data-toggle="dropdown"><strong>Pages
@@ -29,7 +30,6 @@
 						<li><a href="logout.php">Log Out</a></li>
 					</ul>
 				</li>
-				<li><a href="systemdesign.php"><strong>System Design</strong></a></li>
 				<li><a  href="./code.php"><strong>Code</strong></a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">

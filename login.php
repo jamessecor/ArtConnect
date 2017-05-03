@@ -13,13 +13,15 @@ include "acHeader.php";
 			<h1>Example</h1>
 			<div>
 			<pre class="codeExample">
-			
-<span class="codeComment">// Boolean function which returns true if user is logged in</span>
-isLoggedIn() {
-	<span class="codeComment">// Show contents of page</span>
+
+<span class="codeComment">// Boolean function which returns true if user is logged in as guest</span>			
+if(isGuest()) {
+    <span class="codeComment">// Show guest version of page</span>
+} else if(isLoggedIn()) {  <span class="codeComment">// Boolean function which returns true if user is logged in</span>
+    <span class="codeComment">// Show contents of page</span>
 } else {
-	<span class="codeComment">// Send user to login page</span>
-	print "&lt;a href='login.php'&gt;You must be logged in to proceed.&lt;/a&gt;";
+    <span class="codeComment">// Send user to login page</span>
+    print "&lt;a href='login.php'&gt;Please log in to proceed.&lt;/a&gt;";
 }
 			</pre>
 			</div>
