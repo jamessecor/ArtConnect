@@ -52,7 +52,8 @@ include "acHeader.php";
 			<p>
 			The page design diagram indicates the dependency hierarchy within the page structure of ArtConnect Vermont.
 			Dependency flows upward, such that elements below depend on elements above them.
-			In order to access any user account, a user must first log in.
+			In order to access any user account, a user must first log in. To send messages, a user must be logged in as either 
+			<span class='codeExample'>Buyer</span> or <span class='codeExample'>Member</span>.
 			</p>
 		</div>
 	</div>

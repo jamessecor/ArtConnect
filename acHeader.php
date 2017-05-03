@@ -23,6 +23,7 @@
 						<li><a href="login.php">Login</a></li>
 						<li><a href="threads.php">Threads</a></li>
 						<li><a href="messages.php">Messages</a></li>
+						<li><a href="images.php">Images</a></li>
 						<li><a href="search.php">Search</a></li>
 						<li><a href="profile.php">Profile</a></li>
 						<li><a href="logout.php">Log Out</a></li>
@@ -32,7 +33,7 @@
 				<li><a  href="./code.php"><strong>Code</strong></a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li class="navbar-text">&copy; 2017 James Secor</li>
+				<li class="navbar-text">James Secor &copy; 2017</li>
 			</ul>
 		</div>
 	</nav>
