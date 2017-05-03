@@ -31,20 +31,23 @@ include "acHeader.php";
 			is built depending on which search criteria the user included. Searches can include 1, 2, or all 3 of the criteria above.
 			</p>
 			<p>
-			The following is an example of a query build in PHP.
+			Users can search images based on the following criteria:
 			</p>
-			<pre class="codeExample">
-
-<span class="codeComment">// Process search inputs from user</span>
-
-$query = "SELECT i.filename, i.media, i.price, i.title, u.firstname, u.lastname
-          FROM imagesTable i 
-          JOIN users u ON i.artistID = u.userID
-          WHERE u.username = '$username';";
-		  
-<span class="codeComment">// Send query to the database and display results to the user</span>
+			<ul class="list-group">
+				<li class="list-group-item list-group-item-success">
+					<strong><span class="codeExample">The Poster</span></strong>
+				</li>
+				<li class="list-group-item list-group-item-success">
+					<strong><span class="codeExample">The Artist</span></strong>
+				</li>
+				<li class="list-group-item list-group-item-success">
+					<strong><span class="codeExample">The Medium/Media</span></strong>
+				</li>
+				<li class="list-group-item list-group-item-success">
+					<strong><span class="codeExample">The Genre (landscape, still life, portrait, etc.</span></strong>
+				</li>
+			</ul>				
 			
-			</pre>
 		</div>
 	</div>
 </div>

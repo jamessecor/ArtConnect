@@ -22,23 +22,21 @@ include "acHeader.php";
 			see that thread in the list of their threads. That is, once a user has joined a thread, they need not search 
 			for that thread using the search page.
 			</p>
-			<!--
-			<h1>Example</h1>
-			<div class="codeExample">
-				<div class="codeComment">
-					// Boolean function which returns true if user is logged in<br>
-				</div>
-				isLoggedIn() {<br>
-				<div class="codeComment">
-					// Show contents of page<br>
-				</div>
-				} else {<br>
-				<div class="codeComment">
-					// Send user to login page<br>
-				</div>
-				}
-			</div>
-			-->
+			<h1>Searching</h1>
+			<p>
+			Users can search threads based on the following criteria:
+			</p>
+			<ul class="list-group">
+				<li class="list-group-item list-group-item-success">
+					<strong><span class="codeExample">The Poster</span></strong>
+				</li>
+				<li class="list-group-item list-group-item-success">
+					<strong><span class="codeExample">Keywords</span></strong>
+				</li>
+				<li class="list-group-item list-group-item-success">
+					<strong><span class="codeExample">Attachment(s)</span></strong>
+				</li>
+			</ul>
 		</div>
 	</div>
 </div>

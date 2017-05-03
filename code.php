@@ -23,11 +23,11 @@ include "acHeader.php";
 					<pre class="codeExample">
 				
 &lt;?php
-	<span class="codeComment">// PHP code here</span>
+    <span class="codeComment">// PHP code here</span>
 ?&gt;
 <span class="codeComment">&lt;!-- HTML here --></span>
 &lt;script&gt;
-	<span class="codeComment">// JavaScript here</span>
+    <span class="codeComment">// JavaScript here</span>
 &lt;/script&gt;
 <span class="codeComment">&lt;!-- More HTML here --></span>
 etc.

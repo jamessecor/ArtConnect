@@ -5,7 +5,7 @@ include "acHeader.php";
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<h1>System Design</h1>
-			<img width="100%" src="systemdesign.jpg" alt="Image Temporarily Unavailable.">
+			<img src="systemdesign.jpg" alt="Image Temporarily Unavailable.">
 			<h1>Key Concepts</h1>
 			<ul>
 				<li>

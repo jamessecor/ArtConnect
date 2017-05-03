@@ -6,8 +6,8 @@ include "acHeader.php";
 		<div class="col-md-8 col-md-offset-2">
 			<h1>User Profile Page</h1>
 			<p>
-			The user profile page displays all information about a user. Users can upload a profile picture that is displayed next to any
-			message or thread post. Elements of the profile page include
+			The user profile page displays all information about a user. The user can update this information during any session. There is no limit to the number of updates.
+			Users can upload a profile picture that is displayed next to any message or thread post. Elements of the profile page include
 			</p>
 			<ul class="list-group">
 				<li class="list-group-item list-group-item-info">
@@ -27,7 +27,7 @@ include "acHeader.php";
 					send messages, images, or post to a thread.
 				</li>
 				<li class="list-group-item list-group-item-info">
-					<strong><span class="codeExample">Preferences</span></strong>
+					<strong><span class="codeExample">Town</span></strong> Since ArtConnect's goal is to connect local artists, the town of residence is public.
 				</li>
 			</ul>
 			<p>

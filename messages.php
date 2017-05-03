@@ -41,6 +41,24 @@ include "acHeader.php";
 			By default, when the messages page is loaded, users only see the first 10 messages in their pile.
 			Users can see all messages by clicking <span class="codeExample">show all messages</span>.
 			</p>
+			<h1>Searching</h1>
+			<p>
+			Messages can be searched based on the following criteria:
+			</p>
+			<ul class="list-group">
+				<li class="list-group-item list-group-item-success">
+					<strong><span class="codeExample">The Sender</span></strong>
+				</li>
+				<li class="list-group-item list-group-item-success">
+					<strong><span class="codeExample">The Subject</span></strong>
+				</li>
+				<li class="list-group-item list-group-item-success">
+					<strong><span class="codeExample">The Attachment(s)</span></strong>
+				</li>
+				<li class="list-group-item list-group-item-success">
+					<strong><span class="codeExample">The Message Body</span></strong>
+				</li>
+			</ul>
 		</div>
 	</div>
 </div>
