@@ -21,7 +21,8 @@ include "acHeader.php";
 					</ul>
 				</li>
 				<li class="list-group-item list-group-item-info">
-					<strong><span class="codeExample">Price</span></strong> Users can search images based on a price range.
+					<strong><span class="codeExample">Price</span></strong> Users can search images based on a price range. 
+					A user can input only a lower bound, only an upper bound, or both lower and upper bounds.
 				</li>
 				
 			</ul>

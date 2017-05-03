@@ -15,7 +15,7 @@
 			  <a class="navbar-brand" href="./index.php">ArtConnect Vermont</a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li><a href="index.php"><strong>Low-level Design</strong></a></li>
+				<li><a href="lowleveldesign.php"><strong>Low-level Design</strong></a></li>
 				<li>
 					<a class='dropdown-toggle' data-toggle="dropdown"><strong>Pages
 					<span class="caret"></span></strong></a>
