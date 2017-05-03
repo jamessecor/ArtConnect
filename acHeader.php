@@ -26,7 +26,6 @@
 						<li><a href="messages.php">Messages</a></li>
 						<li><a href="calendar.php">Calendar</a></li>
 						<li><a href="images.php">Images</a></li>
-						<li><a href="search.php">Search</a></li>
 						<li><a href="profile.php">Profile</a></li>
 						<li><a href="logout.php">Log Out</a></li>
 					</ul>
