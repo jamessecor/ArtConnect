@@ -20,15 +20,18 @@ include "acHeader.php";
 			<p>
 			Joining a thread simply means that the user, when logged in and accessing the threads page, will automatically
 			see that thread in the list of their threads. That is, once a user has joined a thread, they need not search 
-			for that thread using the search page.
+			for that thread using the search function.
 			</p>
+			<p>
+			Files can be uploaded to threads. Acceptable file formats include jpg, jpeg, gif, and pdf.
+			<p>
 			<h1>Searching</h1>
 			<p>
 			Users can search threads based on the following criteria:
 			</p>
 			<ul class="list-group">
 				<li class="list-group-item list-group-item-success">
-					<strong><span class="codeExample">The Poster</span></strong>
+					<strong><span class="codeExample">The User Who Posted</span></strong>
 				</li>
 				<li class="list-group-item list-group-item-success">
 					<strong><span class="codeExample">Keywords</span></strong>

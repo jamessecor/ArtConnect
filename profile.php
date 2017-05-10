@@ -7,7 +7,8 @@ include "acHeader.php";
 			<h1>User Profile Page</h1>
 			<p>
 			The user profile page displays all information about a user. The user can update this information during any session. There is no limit to the number of updates.
-			Users can upload a profile picture that is displayed next to any message or thread post. Elements of the profile page include
+			Users can upload a profile picture that is displayed next to any message or thread post. Without a user-uploaded image, the default image is used.
+			Elements of the profile page include
 			</p>
 			<ul class="list-group">
 				<li class="list-group-item list-group-item-info">

@@ -35,7 +35,7 @@ include "acHeader.php";
 			</p>
 			<ul class="list-group">
 				<li class="list-group-item list-group-item-success">
-					<strong><span class="codeExample">The Poster</span></strong>
+					<strong><span class="codeExample">The User Who Posted</span></strong>
 				</li>
 				<li class="list-group-item list-group-item-success">
 					<strong><span class="codeExample">The Artist</span></strong>

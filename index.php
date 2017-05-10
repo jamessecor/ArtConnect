@@ -9,7 +9,11 @@ include "acHeader.php";
 			<h1>Introduction</h1>
 			<p>
 			This site is a low-level design to be used to implement the ArtConnect Vermont application. ArtConnect is a web-based system that
-			allows users to connect with their local art community. 
+			allows users to connect with their local art community.
+			</p>
+			<p>
+			Code samples and other keywords throughout the document will be formatted in the following way:
+			<span class="codeExample">Code Example</span>
 			</p>
 			<p>
 			Use the navbar to navigate through the various aspects of the system.

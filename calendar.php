@@ -24,6 +24,9 @@ include "acHeader.php";
 					<strong><span class="codeExample">Event Title</span></strong> Events can be given a title. This is it.
 				</li>
 				<li class="list-group-item list-group-item-info">
+					<strong><span class="codeExample">Event Location</span></strong> Event location is also used in the search function.
+				</li>
+				<li class="list-group-item list-group-item-info">
 					<strong><span class="codeExample">Description</span></strong> The event description allows a user to define event details, such as recommended apparel or 
 					age range.
 				</li>

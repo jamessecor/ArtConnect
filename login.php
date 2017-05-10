@@ -17,8 +17,10 @@ include "acHeader.php";
 <span class="codeComment">// Boolean function which returns true if user is logged in as guest</span>			
 if(isGuest()) {
     <span class="codeComment">// Show guest version of page</span>
-} else if(isLoggedIn()) {  <span class="codeComment">// Boolean function which returns true if user is logged in</span>
-    <span class="codeComment">// Show contents of page</span>
+} else if(isBuyer()) {  <span class="codeComment">// Boolean function which returns true if user is logged in as buyer</span>
+    <span class="codeComment">// Show contents of buyer page</span>
+} else if(isMember()) {  <span class="codeComment">// Boolean function which returns true if user is logged in as member</span>
+    <span class="codeComment">// Show contents of member page</span>
 } else {
     <span class="codeComment">// Send user to login page</span>
     print "&lt;a href='login.php'&gt;Please log in to proceed.&lt;/a&gt;";
